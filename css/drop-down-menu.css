@@ -1,0 +1,66 @@
+.navbtn {
+    /* background: white; */
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.242);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.navbtn:hover {
+    background-color: black;
+}
+
+
+.navbtn a {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* turns the dropdown off when not in use */
+.dropdown-box {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    margin-left: -25px;
+}
+
+
+.dropdown-btn {
+    background-color: white;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+}
+
+.dropdown-btn a {
+    color: #FC5E55;
+    font-weight: bold;
+}
+
+
+.dropdown-btn:hover {
+    background-color: rgba(0, 0, 0, 0.491);
+    transition-duration: s;
+    color: white;
+}
+
+.dropdown-btn:hover a {
+    color: white;
+}
+
+/* turns on the dropdown on hover */
+.navbtn:hover .dropdown-box {
+    display: block;
+}
+
+.navbtn:hover .dropdown-box {
+    display: block;
+    color: white;
+}

@@ -1,0 +1,304 @@
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body {
+    background-image: url(/images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: cover; */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo {
+    width: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    padding-top: 50px;
+}
+
+.herobox1 {
+    width: 50%;
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    width: 50%;
+    flex: 1;
+}
+
+.herobox2 img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.242);
+}
+
+.cards {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(/images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.242);
+}
+
+.card2 {
+    background-image: url(/images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.242);
+}
+
+.card3 {
+    background-image: url(/images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.242);
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.242);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.242);
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+.cards i {
+    font-size: 100px;
+
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybtn {
+    color: #FC5E55;
+    text-decoration: none;
+    background-color: white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.242);
+}
+
+.mybtn a {
+    color: #FC5E55;
+}
+
+.mybtn:hover {
+    background-color: rgb(19, 164, 103);
+    color: white;
+    transition: 1s;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.242);
+}
+
+/* DROP DOWN MENU CSS BEGINNING*/
+nav {
+    width: 50%;
+    text-align: right;
+}
+
+.navbtn {
+    /* background: white; */
+    padding: 11px 25px;
+    margin-left: 3px;
+    width: 100px;
+    text-align: center;
+    display: inline;
+    position: relative;
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.242); */
+    border-radius: 1px;
+    border: 1px solid white;
+}
+
+.navbtn:hover {
+    background-color: transparent;
+}
+
+
+.navbtn a {
+    color: white;
+    font-weight: bold;
+}
+
+/* turns the dropdown off when not in use */
+.dropdown-box {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    margin-left: 100px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.242);
+}
+
+
+/* turns on the dropdown on hover */
+.navbtn:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown-btn {
+    background-color: white;
+    padding: 11px 25px;
+    width: 140px;
+    text-align: center;
+}
+
+.dropdown-btn a {
+    color: #FC5E55;
+    font-weight: bold;
+}
+
+
+.dropdown-btn:hover {
+    background-color: rgb(0, 0, 0);
+    transition-duration: 1s;
+    color: white;
+}
+
+.dropdown-btn:hover a {
+    color: white;
+}
+
+.navbtn:hover .dropdown-box {
+    display: block;
+    color: white;
+}
+
+/* DROP DOWN MENU CSS END */
+
+
+/* CSS FOR FORM BEGINS */
+
+form {
+    margin: 20px 0px;
+}
+.input-wrapper{
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'robot0' sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.new-line{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 5px;
+}
+
+label, form p{
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+/* CC FOR FORM ENDS */
